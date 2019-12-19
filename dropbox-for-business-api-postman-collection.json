@@ -1,0 +1,611 @@
+{
+    "id": "8edae3bb207ab4f427ab3c4893de91cc",
+    "name": "Dropbox for Business API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "8936a5d03bd8d103ba81a20c61a5b1c0",
+            "name": "Get Info",
+            "url": "httpsapi.dropbox.com\/1\/team\/get_info",
+            "description": "Get info.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "rawModeData": ""
+        },
+        {
+            "id": "c2e0b9f4e573665828031e75b36ecc85",
+            "name": "Get Events",
+            "url": "httpsapi.dropbox.com\/1\/team\/log\/get_events",
+            "description": "Get events.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "category",
+                    "description": "optional filter the returned events to a single category (see Event types below)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cursor",
+                    "description": "optional encoded value indicating from what point to get the next limit logs",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "end_ts",
+                    "description": "optional end time (UTC timestamp in milliseconds since the Unix epoch)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "optional number of results to return per call (default 1000, maximum 1000)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "start_ts",
+                    "description": "optional start time (UTC timestamp in milliseconds since the Unix epoch)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "user",
+                    "description": "optional member ID, user ID, or email of a user for filtering events",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "rawModeData": ""
+        },
+        {
+            "id": "8dc671e960ae06edf8039a1bdb9d73d9",
+            "name": "Add Member",
+            "url": "httpsapi.dropbox.com\/1\/team\/members\/add",
+            "description": "Add member.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "member_email",
+                    "description": "member email",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "member_external_id",
+                    "description": "optional external ID for member",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "member_given_name",
+                    "description": "member first name",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "member_surname",
+                    "description": "member last name",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "send_welcome_email",
+                    "description": "optional boolean to send a welcome email to the member. Default is true.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "rawModeData": ""
+        },
+        {
+            "id": "faa3208308df1135abaf3b9287398500",
+            "name": "Get Member Info",
+            "url": "httpsapi.dropbox.com\/1\/team\/members\/get_info",
+            "description": "Get member info.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "email",
+                    "description": "optional email of member",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "external_id",
+                    "description": "optional external ID of member",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "member_id",
+                    "description": "optional ID of member",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "rawModeData": ""
+        },
+        {
+            "id": "afad2b172687df0923a96bc67d9806a1",
+            "name": "Get Info Batch",
+            "url": "httpsapi.dropbox.com\/1\/team\/members\/get_info_batch",
+            "description": "Get info batch.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "emails",
+                    "description": "optional list of member emails",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "external_ids",
+                    "description": "optional list of external member IDs",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "member_ids",
+                    "description": "optional list of member IDs",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "rawModeData": ""
+        },
+        {
+            "id": "f81ffb0319f365ffe9d6302067f0efb4",
+            "name": "List Members",
+            "url": "httpsapi.dropbox.com\/1\/team\/members\/list",
+            "description": "List members.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cursor",
+                    "description": "optional encoded value indicating from what point to get the next limit logs",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "optional number of results to return per call (default 1000, maximum 1000)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "rawModeData": ""
+        },
+        {
+            "id": "675b6bdbfb662577c0bebf039914b3ac",
+            "name": "Remove",
+            "url": "httpsapi.dropbox.com\/1\/team\/members\/remove",
+            "description": "Remove.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "delete_data",
+                    "description": "optional controls if the users data will be deleted on their linked devices. Default is true.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "external_id",
+                    "description": "optional external ID of member",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "member_id",
+                    "description": "optional ID of member",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "transfer_admin_member_id",
+                    "description": "optional errors during the transfer process will be sent via email to the transfer_admin_member_id.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "transfer_dest_member_id",
+                    "description": "optional files from the deleted member account will be transferred to this member.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "rawModeData": ""
+        },
+        {
+            "id": "d3d70940776c6028b30da71269798deb",
+            "name": "Set Member Permissions",
+            "url": "httpsapi.dropbox.com\/1\/team\/members\/set_permissions",
+            "description": "Set member permissions.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "external_id",
+                    "description": "optional external ID of member",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "member_id",
+                    "description": "optional ID of member",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "new_is_admin",
+                    "description": "optional change the admin status of the member.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "rawModeData": ""
+        },
+        {
+            "id": "8181608986f2c7ce2c72cc4cdf3b8dc8",
+            "name": "Set Profile",
+            "url": "httpsapi.dropbox.com\/1\/team\/members\/set_profile",
+            "description": "Set profile.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "external_id",
+                    "description": "optional external ID of member",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "member_id",
+                    "description": "optional ID of member",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "new_email",
+                    "description": "optional new email for member.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "new_external_id",
+                    "description": "optional new external ID for member",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "new_given_name",
+                    "description": "optional new given name for member.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "new_surname",
+                    "description": "optional new surname for member.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "rawModeData": ""
+        },
+        {
+            "id": "4f1ebb916bce7f5045b8fe5a36ceb6ec",
+            "name": "Get Activity",
+            "url": "httpsapi.dropbox.com\/1\/team\/reports\/get_activity",
+            "description": "Get activity.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "end_date",
+                    "description": "optional ending date (exclusive)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "start_date",
+                    "description": "optional starting date (inclusive)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "rawModeData": ""
+        },
+        {
+            "id": "d3d993fdc2401b17e7d2833a4524a695",
+            "name": "Get Devices",
+            "url": "httpsapi.dropbox.com\/1\/team\/reports\/get_devices",
+            "description": "Get devices.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "end_date",
+                    "description": "optional ending date (exclusive)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "start_date",
+                    "description": "optional starting date (inclusive)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "rawModeData": ""
+        },
+        {
+            "id": "c3e27fcab527331f849cf9865825c3a9",
+            "name": "Get Membership",
+            "url": "httpsapi.dropbox.com\/1\/team\/reports\/get_membership",
+            "description": "Get membership.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "end_date",
+                    "description": "optional ending date (exclusive)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "start_date",
+                    "description": "optional starting date (inclusive)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "rawModeData": ""
+        },
+        {
+            "id": "2973b733519eaac0db72fef19188e529",
+            "name": "Get Storage",
+            "url": "httpsapi.dropbox.com\/1\/team\/reports\/get_storage",
+            "description": "Get storage.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "end_date",
+                    "description": "optional ending date (exclusive)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "start_date",
+                    "description": "optional starting date (inclusive)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "rawModeData": ""
+        }
+    ]
+}
