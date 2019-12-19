@@ -1,0 +1,404 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "abbyy",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        "console.cloud-elements.com\/elements\/api-v2\/hubs\/ocr"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "BulkLoad": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "BulkStatus": {
+                "type": "object",
+                "properties": {
+                    "batchId": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "message": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "numOfLeadsProcessed": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "numOfRowsFailed": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "numOfRowsWithWarning": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "tasksListObject": {
+                "type": "object",
+                "properties": {
+                    "@credits": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "@statusChangeTime": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "@resultUrl": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "@registrationTime": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "@id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "@status": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "@filesCount": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "BulkQuery": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "tasksMetaData": {
+                "type": "object",
+                "properties": {
+                    "language": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "profile": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "textType": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "imageSource": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "correctOrientation": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "correctSkew": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "readBarcodes": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "exportFormat": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "xml": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pdf": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pdfPassword": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "tasksTextfileds": {
+                "type": "object",
+                "properties": {
+                    "@credits": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "@statusChangeTime": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "@estimatedProcessingTime": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "@registrationTime": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "@id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "@status": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "@filesCount": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "objectsMetadataFields": {
+                "type": "object",
+                "properties": {
+                    "mask": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "vendorDisplayName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "vendorPath": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "vendorReadOnly": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "vendorRequired": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "tasksTextFieldMetaData": {
+                "type": "object",
+                "properties": {
+                    "region": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "language": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "letterSet": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "regExp": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "textType": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "oneTextLine": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "markingType": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "placeholdersCount": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "writingStyle": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pdfPassword": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "tasksFinishedListObject": {
+                "type": "object",
+                "properties": {
+                    "@credits": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "@statusChangeTime": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "@resultUrl": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "@registrationTime": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "@id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "@status": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "@filesCount": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "application": {
+                "type": "object",
+                "properties": {
+                    "expires": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pages": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "fields": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "Object": {
+                "type": "object",
+                "properties": {
+                    "objectField": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "objectsMetadata": {
+                "type": "object",
+                "properties": {
+                    "fields": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "tasks": {
+                "type": "object",
+                "properties": {
+                    "@credits": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "@statusChangeTime": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "@resultUrl": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "@registrationTime": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "@id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "@status": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "@filesCount": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "Pong": {
+                "type": "object",
+                "properties": {
+                    "dateTime": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "endpoint": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "info": {
+                "type": "object",
+                "properties": {
+                    "@xsi": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "@xmlns": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            }
+        }
+    }
+}
