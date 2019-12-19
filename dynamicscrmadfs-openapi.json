@@ -1,0 +1,3607 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "api-v2",
+        "title": "dynamicscrmadfs",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        "console.cloud-elements.com\/elements\/api-v2\/hubs\/crm"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "Account": {
+                "type": "object"
+            },
+            "AccountProperties": {
+                "type": "object",
+                "properties": {
+                    "accountcategorycode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "accountclassificationcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "accountid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "accountnumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "accountratingcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_addressid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_addresstypecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_city": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_composite": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_country": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_county": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_freighttermscode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_latitude": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_line1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_line2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_line3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_longitude": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_postalcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_postofficebox": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_primarycontactname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_shippingmethodcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_stateorprovince": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_telephone1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_telephone2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_telephone3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_upszone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_utcoffset": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_addressid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_addresstypecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_city": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_composite": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_country": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_county": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_freighttermscode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_latitude": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_line1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_line2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_line3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_longitude": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_postalcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_postofficebox": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_primarycontactname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_shippingmethodcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_stateorprovince": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_telephone1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_telephone2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_telephone3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_upszone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_utcoffset": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "aging30": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "aging30_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "aging60": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "aging60_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "aging90": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "aging90_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "businesstypecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdonbehalfby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "creditlimit": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "creditlimit_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "creditonhold": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "customersizecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "customertypecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "defaultpricelevelid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "donotbulkemail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "donotbulkpostalmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "donotemail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "donotfax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "donotphone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "donotpostalmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "donotsendmm": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "emailaddress1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "emailaddress2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "emailaddress3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "exchangerate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ftpsiteurl": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "industrycode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastusedincampaign": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "marketcap": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "marketcap_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "masterid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "merged": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedonbehalfby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "numberofemployees": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "opendeals": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "opendeals_date": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "opendeals_state": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "openrevenue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "openrevenue_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "openrevenue_date": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "openrevenue_state": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "originatingleadid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "overriddencreatedon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ownerid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ownershipcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "parentaccountid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "paymenttermscode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "preferredappointmentdaycode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "preferredappointmenttimecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "preferredcontactmethodcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "preferredequipmentid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "preferredserviceid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "preferredsystemuserid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "primarycontactid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "processid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "revenue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "revenue_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "sharesoutstanding": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "shippingmethodcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "sic": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "stageid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "statecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "statuscode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "stockexchange": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "telephone1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "telephone2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "telephone3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "territorycode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "territoryid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "tickersymbol": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "transactioncurrencyid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "versionnumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "websiteurl": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "yominame": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "ActivityPointer": {
+                "type": "object"
+            },
+            "ActivityPointerProperties": {
+                "type": "object",
+                "properties": {
+                    "activityid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "activitytypecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "actualdurationminutes": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "actualend": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "actualstart": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "community": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdonbehalfby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "deliverylastattemptedon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "deliveryprioritycode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "exchangerate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "instancetypecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isbilled": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ismapiprivate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isregularactivity": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isworkflowcreated": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "leftvoicemail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedonbehalfby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ownerid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "postponeactivityprocessinguntil": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "prioritycode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "processid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "regardingobjectid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "scheduleddurationminutes": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "scheduledend": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "scheduledstart": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "sendermailboxid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "senton": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "seriesid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "serviceid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "stageid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "statecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "statuscode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "subject": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "transactioncurrencyid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "versionnumber": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Annotation": {
+                "type": "object"
+            },
+            "AnnotationProperties": {
+                "type": "object",
+                "properties": {
+                    "annotationid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdonbehalfby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "documentbody": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "filename": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "filesize": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isdocument": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "langid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "mimetype": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedonbehalfby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "notetext": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "objectid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "objecttypecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "overriddencreatedon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ownerid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "owningbusinessunit": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "stepid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "subject": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "versionnumber": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Contact": {
+                "type": "object"
+            },
+            "ContactProperties": {
+                "type": "object",
+                "properties": {
+                    "accountid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "accountrolecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_addressid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_addresstypecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_city": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_composite": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_country": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_county": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_freighttermscode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_latitude": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_line1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_line2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_line3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_longitude": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_postalcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_postofficebox": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_primarycontactname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_shippingmethodcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_stateorprovince": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_telephone1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_telephone2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_telephone3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_upszone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_utcoffset": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_addressid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_addresstypecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_city": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_composite": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_country": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_county": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_freighttermscode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_latitude": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_line1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_line2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_line3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_longitude": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_postalcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_postofficebox": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_primarycontactname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_shippingmethodcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_stateorprovince": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_telephone1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_telephone2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_telephone3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_upszone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_utcoffset": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address3_addressid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address3_addresstypecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address3_city": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address3_composite": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address3_country": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address3_county": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address3_fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address3_freighttermscode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address3_latitude": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address3_line1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address3_line2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address3_line3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address3_longitude": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address3_name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address3_postalcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address3_postofficebox": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address3_primarycontactname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address3_shippingmethodcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address3_stateorprovince": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address3_telephone1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address3_telephone2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address3_telephone3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address3_upszone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address3_utcoffset": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "aging30": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "aging30_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "aging60": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "aging60_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "aging90": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "aging90_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "anniversary": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "annualincome": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "annualincome_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "assistantname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "assistantphone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "birthdate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "business2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "callback": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "childrensnames": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "company": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "contactid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdonbehalfby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "creditlimit": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "creditlimit_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "creditonhold": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "customersizecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "customertypecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "defaultpricelevelid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "department": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "donotbulkemail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "donotbulkpostalmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "donotemail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "donotfax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "donotphone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "donotpostalmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "donotsendmm": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "educationcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "emailaddress1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "emailaddress2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "emailaddress3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "employeeid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "exchangerate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "externaluseridentifier": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "familystatuscode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "firstname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ftpsiteurl": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "fullname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "gendercode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "governmentid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "haschildrencode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "home2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isbackofficecustomer": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "jobtitle": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastusedincampaign": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "leadsourcecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "managername": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "managerphone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "masterid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "merged": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "middlename": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "mobilephone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedonbehalfby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "nickname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "numberofchildren": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "originatingleadid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "overriddencreatedon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ownerid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "pager": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "parentcustomerid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "paymenttermscode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "preferredappointmentdaycode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "preferredappointmenttimecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "preferredcontactmethodcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "preferredequipmentid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "preferredserviceid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "preferredsystemuserid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "processid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "salutation": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "shippingmethodcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "spousesname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "stageid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "statecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "statuscode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "suffix": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "telephone1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "telephone2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "telephone3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "territorycode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "transactioncurrencyid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "versionnumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "websiteurl": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "yomifirstname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "yomifullname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "yomilastname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "yomimiddlename": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "FieldMetadata": {
+                "type": "object",
+                "properties": {
+                    "description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "displayName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "fieldName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "length": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "FieldMetadata-PUT": {
+                "type": "object",
+                "properties": {
+                    "description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "displayName": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Incident": {
+                "type": "object"
+            },
+            "IncidentProperties": {
+                "type": "object",
+                "properties": {
+                    "accountid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "activitiescomplete": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "actualserviceunits": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "billedserviceunits": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "blockedprofile": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "caseorigincode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "casetypecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "checkemail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "contactid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "contractdetailid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "contractid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "contractservicelevelcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdonbehalfby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "customercontacted": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "customerid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "customersatisfactioncode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "entitlementid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "escalatedon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "exchangerate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "existingcase": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "firstresponsebykpiid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "firstresponsesent": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "firstresponseslastatus": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "followupby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "followuptaskcreated": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "incidentid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "incidentstagecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "influencescore": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isdecrementing": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isescalated": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "kbarticleid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastonholdtime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "masterid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "merged": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "messagetypecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedonbehalfby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "numberofchildincidents": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "onholdtime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "overriddencreatedon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ownerid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "parentcaseid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "primarycontactid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "prioritycode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "processid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "productid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "productserialnumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "resolveby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "resolvebykpiid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "resolvebyslastatus": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "responseby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "responsiblecontactid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "routecase": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "sentimentvalue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "servicestage": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "severitycode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "slainvokedid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "socialprofileid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "stageid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "statecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "statuscode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "subjectid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ticketnumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "transactioncurrencyid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "versionnumber": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Lead": {
+                "type": "object"
+            },
+            "LeadProperties": {
+                "type": "object",
+                "properties": {
+                    "accountid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_addressid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_addresstypecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_city": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_composite": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_country": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_county": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_latitude": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_line1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_line2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_line3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_longitude": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_postalcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_postofficebox": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_shippingmethodcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_stateorprovince": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_telephone1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_telephone2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_telephone3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_upszone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_utcoffset": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_addressid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_addresstypecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_city": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_composite": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_country": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_county": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_latitude": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_line1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_line2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_line3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_longitude": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_postalcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_postofficebox": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_shippingmethodcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_stateorprovince": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_telephone1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_telephone2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_telephone3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_upszone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_utcoffset": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "budgetamount": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "budgetamount_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "budgetstatus": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "campaignid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "companyname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "confirminterest": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "contactid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdonbehalfby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "customerid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "decisionmaker": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "donotbulkemail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "donotemail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "donotfax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "donotphone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "donotpostalmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "donotsendmm": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "emailaddress1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "emailaddress2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "emailaddress3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "estimatedamount": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "estimatedamount_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "estimatedclosedate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "estimatedvalue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "evaluatefit": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "exchangerate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "firstname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "fullname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "industrycode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "initialcommunication": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "jobtitle": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastusedincampaign": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "leadid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "leadqualitycode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "leadsourcecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "masterid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "merged": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "middlename": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "mobilephone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedonbehalfby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "need": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "numberofemployees": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "originatingcaseid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "overriddencreatedon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ownerid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "pager": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "parentaccountid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "parentcontactid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "preferredcontactmethodcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "prioritycode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "processid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "purchaseprocess": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "purchasetimeframe": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "qualificationcomments": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "qualifyingopportunityid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "relatedobjectid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "revenue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "revenue_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "salesstage": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "salesstagecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "salutation": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "schedulefollowup_prospect": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "schedulefollowup_qualify": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "sic": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "stageid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "statecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "statuscode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "subject": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "telephone1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "telephone2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "telephone3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "transactioncurrencyid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "versionnumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "websiteurl": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "yomicompanyname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "yomifirstname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "yomifullname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "yomilastname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "yomimiddlename": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Opportunity": {
+                "type": "object"
+            },
+            "OpportunityProperties": {
+                "type": "object",
+                "properties": {
+                    "actualclosedate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "actualvalue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "actualvalue_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "budgetamount": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "budgetamount_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "budgetstatus": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "campaignid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "captureproposalfeedback": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "closeprobability": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "completefinalproposal": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "completeinternalreview": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "confirminterest": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdonbehalfby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "currentsituation": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "customerid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "customerneed": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "customerpainpoints": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "decisionmaker": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "developproposal": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "discountamount": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "discountamount_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "discountpercentage": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "estimatedclosedate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "estimatedvalue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "estimatedvalue_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "evaluatefit": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "exchangerate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "filedebrief": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "finaldecisiondate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "freightamount": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "freightamount_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "identifycompetitors": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "identifycustomercontacts": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "identifypursuitteam": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "initialcommunication": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isrevenuesystemcalculated": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedonbehalfby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "need": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "opportunityid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "opportunityratingcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "originatingleadid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "overriddencreatedon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ownerid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "parentaccountid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "parentcontactid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "presentfinalproposal": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "presentproposal": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "pricelevelid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "prioritycode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "processid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "proposedsolution": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "purchaseprocess": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "purchasetimeframe": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "pursuitdecision": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "qualificationcomments": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "quotecomments": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "resolvefeedback": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "salesstage": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "salesstagecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "schedulefollowup_prospect": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "schedulefollowup_qualify": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "scheduleproposalmeeting": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "sendthankyounote": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "stageid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "statecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "statuscode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "stepid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "stepname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "timeline": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "totalamount": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "totalamount_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "totalamountlessfreight": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "totalamountlessfreight_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "totaldiscountamount": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "totaldiscountamount_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "totallineitemamount": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "totallineitemamount_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "totallineitemdiscountamount": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "totallineitemdiscountamount_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "totaltax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "totaltax_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "transactioncurrencyid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "versionnumber": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Product": {
+                "type": "object"
+            },
+            "ProductProperties": {
+                "type": "object",
+                "properties": {
+                    "createdby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdonbehalfby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "currentcost": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "currentcost_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "defaultuomid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "defaultuomscheduleid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "exchangerate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "hierarchypath": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "iskit": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isstockitem": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedonbehalfby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "organizationid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "overriddencreatedon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "parentproductid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "price": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "price_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "pricelevelid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "processid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "productid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "productnumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "productstructure": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "producttypecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "producturl": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "quantitydecimal": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "quantityonhand": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "size": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "stageid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "standardcost": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "standardcost_base": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "statecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "statuscode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "stockvolume": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "stockweight": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "subjectid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "suppliername": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "transactioncurrencyid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "validfromdate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "validtodate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "vendorid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "vendorname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "vendorpartnumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "versionnumber": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "SystemUser": {
+                "type": "object"
+            },
+            "SystemUserProperties": {
+                "type": "object",
+                "properties": {
+                    "accessmode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_addressid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_addresstypecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_city": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_composite": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_country": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_county": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_latitude": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_line1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_line2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_line3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_longitude": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_postalcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_postofficebox": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_shippingmethodcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_stateorprovince": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_telephone1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_telephone2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_telephone3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_upszone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1_utcoffset": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_addressid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_addresstypecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_city": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_composite": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_country": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_county": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_latitude": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_line1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_line2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_line3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_longitude": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_postalcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_postofficebox": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_shippingmethodcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_stateorprovince": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_telephone1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_telephone2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_telephone3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_upszone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2_utcoffset": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "businessunitid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "calendarid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "caltype": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdonbehalfby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "defaultfilterspopulated": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "defaultmailbox": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "disabledreason": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "displayinserviceviews": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "domainname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "emailrouteraccessapproval": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "employeeid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "exchangerate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "firstname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "fullname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "governmentid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "homephone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "incomingemaildeliverymethod": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "internalemailaddress": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "invitestatuscode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isdisabled": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isemailaddressapprovedbyo365admin": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isintegrationuser": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "islicensed": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "issyncwithdirectory": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "jobtitle": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "middlename": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "mobilealertemail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "mobilephone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedonbehalfby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "nickname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "organizationid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "outgoingemaildeliverymethod": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "overriddencreatedon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "parentsystemuserid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "passporthi": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "passportlo": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "personalemailaddress": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "photourl": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "positionid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "preferredaddresscode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "preferredemailcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "preferredphonecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "processid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "queueid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "salutation": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "setupuser": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "siteid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "skills": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "stageid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "systemuserid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "territoryid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "transactioncurrencyid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "userlicensetype": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "versionnumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "windowsliveid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "yammeremailaddress": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "yammeruserid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "yomifirstname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "yomifullname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "yomilastname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "yomimiddlename": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Task": {
+                "type": "object"
+            },
+            "TaskProperties": {
+                "type": "object",
+                "properties": {
+                    "activityid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "activitytypecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "actualdurationminutes": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "actualend": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "actualstart": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "category": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdonbehalfby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "crmtaskassigneduniqueid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "exchangerate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isbilled": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isregularactivity": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isworkflowcreated": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "modifiedonbehalfby": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "overriddencreatedon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ownerid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "percentcomplete": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "prioritycode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "processid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "regardingobjectid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "scheduleddurationminutes": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "scheduledend": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "scheduledstart": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "serviceid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "stageid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "statecode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "statuscode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "subcategory": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "subject": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "transactioncurrencyid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "versionnumber": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "BulkStatus": {
+                "type": "object",
+                "properties": {
+                    "batchId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "message": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "numOfLeadsProcessed": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "numOfRowsFailed": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "numOfRowsWithWarning": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "BulkLoad": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "BulkQuery": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Pong": {
+                "type": "object",
+                "properties": {
+                    "dateTime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "endpoint": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            }
+        }
+    }
+}
