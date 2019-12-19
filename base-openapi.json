@@ -1,0 +1,871 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "api-v2",
+        "title": "base",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        "console.cloud-elements.com\/elements\/api-v2\/hubs\/crm"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "notes": {
+                "type": "object",
+                "properties": {
+                    "updated_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "creator_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "resource_type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "resource_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "content": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "BulkQuery": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "activitiesListObject": {
+                "type": "object",
+                "properties": {
+                    "updated_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "overdue": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "owner_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "creator_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "completed": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "content": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "usersListObject": {
+                "type": "object",
+                "properties": {
+                    "role": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "updated_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "confirmed": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "email": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "stagesListObject": {
+                "type": "object",
+                "properties": {
+                    "likelihood": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "updated_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pipeline_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "position": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "category": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "leadsListObject": {
+                "type": "object",
+                "properties": {
+                    "updated_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "owner_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "creator_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "last_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "organization_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "BulkLoad": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "address": {
+                "type": "object",
+                "properties": {
+                    "country": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "city": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "state": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "line1": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "BulkStatus": {
+                "type": "object",
+                "properties": {
+                    "batchId": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "message": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "numOfLeadsProcessed": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "numOfRowsFailed": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "numOfRowsWithWarning": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "contactsListObject": {
+                "type": "object",
+                "properties": {
+                    "prospect_status": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "updated_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "owner_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "customer_status": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "creator_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "is_organization": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "objectsMetadataFields": {
+                "type": "object",
+                "properties": {
+                    "mask": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "vendorDisplayName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "vendorPath": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "vendorReadOnly": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "vendorRequired": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "opportunities": {
+                "type": "object",
+                "properties": {
+                    "custom_fields": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "stage_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "owner_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "contact_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "hot": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "dropbox_email": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "updated_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "last_activity_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "last_stage_change_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "creator_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "currency": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "estimated_close_date": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "loss_reason_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "organization_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "source_id": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "users": {
+                "type": "object",
+                "properties": {
+                    "role": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "updated_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "confirmed": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "email": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "activities": {
+                "type": "object",
+                "properties": {
+                    "updated_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "overdue": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "owner_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "due_date": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "resource_type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "creator_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "resource_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "completed": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "content": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "leads": {
+                "type": "object",
+                "properties": {
+                    "website": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "owner_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "facebook": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "mobile": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "last_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "industry": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "linkedin": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "organization_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "skype": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "twitter": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "updated_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "phone": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "creator_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "fax": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "first_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "email": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "Object": {
+                "type": "object",
+                "properties": {
+                    "objectField": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "accounts": {
+                "type": "object",
+                "properties": {
+                    "time_format": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "updated_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "phone": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "timezone": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "currency": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "notesListObject": {
+                "type": "object",
+                "properties": {
+                    "updated_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "creator_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "resource_type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "resource_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "content": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "objectsMetadata": {
+                "type": "object",
+                "properties": {
+                    "fields": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "contacts": {
+                "type": "object",
+                "properties": {
+                    "prospect_status": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "owner_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "last_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "contact_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "is_organization": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "updated_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "customer_status": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "creator_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "first_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "email": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "facebook": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "fax": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "industry": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "linkedin": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "mobile": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "phone": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "skype": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "twitter": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "website": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "Pong": {
+                "type": "object",
+                "properties": {
+                    "dateTime": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "endpoint": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "opportunitiesListObject": {
+                "type": "object",
+                "properties": {
+                    "owner_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "stage_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "hot": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "contact_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "dropbox_email": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "updated_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "last_activity_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "organization_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "creator_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "last_stage_change_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "currency": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            }
+        }
+    }
+}
