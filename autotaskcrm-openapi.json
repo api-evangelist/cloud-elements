@@ -1,0 +1,826 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "api-v2",
+        "title": "autotaskcrm",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        "console.cloud-elements.com\/elements\/api-v2\/hubs\/crm"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "Account": {
+                "type": "object",
+                "properties": {
+                    "accountName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "accountNumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "accountType": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "active": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "additionalAddressInformation": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "address2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "alternatePhone1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "alternatePhone2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "assetValue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "city": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "clientPortalActive": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "competitorID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "country": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastActivityDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "marketSegmentID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ownerResourceID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "parentAccountID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "phone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "postalCode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "siccode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "state": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "stockMarket": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "stockSymbol": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "taskFireActive": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "taxExempt": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "taxID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "taxRegionID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "territoryID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "webAddress": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Address": {
+                "type": "object",
+                "properties": {
+                    "city": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "country": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "countyOrDistrict": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "postalCode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "stateOrProvince": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "street1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "street2": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Contact": {
+                "type": "object",
+                "properties": {
+                    "accountID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "active": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "additionalAddressInformation": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "addressLine": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "addressLine1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "alternatePhone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "city": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "country": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "emailAddress": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "extension": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "externalID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "faxNumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "firstName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastActivityDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastModifiedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "middleInitial": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "mobilePhone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "note": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "notification": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "phone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "roomNumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "state": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "zipCode": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Object": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Opportunity": {
+                "type": "object",
+                "properties": {
+                    "accountID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "advancedField1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "advancedField2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "advancedField3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "advancedField4": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "advancedField5": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "amount": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "barriers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "closedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "contactID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "cost": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "helpNeeded": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "market": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "nextStep": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ownerResourceID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "probability": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "productID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "projectedCloseDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "projectedLiveDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "promotionName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "rating": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "revenueSpread": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "revenueSpreadUnit": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "salesOrderID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "stage": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "throughDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "totalAmountMonths": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "useQuoteTotals": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Pong": {
+                "type": "object",
+                "properties": {
+                    "dateTime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "endpoint": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Product": {
+                "type": "object",
+                "properties": {
+                    "active": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "costAllocationCodeID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "defaultVendorID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "doesNotRequireProcurement": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "externalProductID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "link": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "manufacturerName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "manufacturerProductName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "msrp": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "periodType": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "productAllocationCodeID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "productCategory": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "serialized": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "sku": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "unitCost": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "unitPrice": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "vendorProductNumber": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Task": {
+                "type": "object",
+                "properties": {
+                    "allocationCodeID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "assignedResourceID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "assignedResourceRoleID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "canClientPortalUserCompleteTask": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "departmentID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "endDateTime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "estimatedHours": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "externalID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isVisibleInClientPortal": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "phaseID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "priority": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "projectID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "purchaseOrderNumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "remainingHours": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "startDateTime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "taskType": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "TaskReadOnly": {
+                "type": "object",
+                "properties": {
+                    "allocationCodeID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "assignedResourceID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "assignedResourceRoleID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "canClientPortalUserCompleteTask": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "completedDateTime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createDateTime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "creatorResourceID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "departmentID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "endDateTime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "estimatedHours": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "externalID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isVisibleInClientPortal": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastActivityDateTime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "phaseID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "priority": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "projectID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "purchaseOrderNumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "remainingHours": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "startDateTime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "taskIsBillable": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "taskNumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "taskType": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "User": {
+                "type": "object",
+                "properties": {
+                    "clientPortalActive": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "contactID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "dateFormat": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "numberFormat": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "password": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "securityLevel": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "timeFormat": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "userName": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "BulkStatus": {
+                "type": "object",
+                "properties": {
+                    "batchId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "message": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "numOfLeadsProcessed": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "numOfRowsFailed": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "numOfRowsWithWarning": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "BulkLoad": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "BulkQuery": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            }
+        }
+    }
+}
