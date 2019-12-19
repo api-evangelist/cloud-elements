@@ -1,0 +1,351 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1",
+        "title": "Dropbox for Business API",
+        "description": "The business version of the Dropbox API.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsapi.dropbox.com\/1\/team"
+    ],
+    "paths": {
+        "\/get_info": {
+            "post": {
+                "summary": "Get Info",
+                "description": "Get info.",
+                "operationId": "PostGetInfo",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/log\/get_events": {
+            "post": {
+                "summary": "Get Events",
+                "description": "Get events.",
+                "operationId": "PostLogGetEvents",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "category",
+                        "in": "query",
+                        "description": "optional filter the returned events to a single category (see Event types below)"
+                    },
+                    {
+                        "name": "cursor",
+                        "in": "query",
+                        "description": "optional encoded value indicating from what point to get the next limit logs"
+                    },
+                    {
+                        "name": "end_ts",
+                        "in": "query",
+                        "description": "optional end time (UTC timestamp in milliseconds since the Unix epoch)"
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "optional number of results to return per call (default 1000, maximum 1000)"
+                    },
+                    {
+                        "name": "start_ts",
+                        "in": "query",
+                        "description": "optional start time (UTC timestamp in milliseconds since the Unix epoch)"
+                    },
+                    {
+                        "name": "user",
+                        "in": "query",
+                        "description": "optional member ID, user ID, or email of a user for filtering events"
+                    }
+                ]
+            }
+        },
+        "\/members\/add": {
+            "post": {
+                "summary": "Add Member",
+                "description": "Add member.",
+                "operationId": "PostMembersAdd",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "member_email",
+                        "in": "query",
+                        "description": "member email"
+                    },
+                    {
+                        "name": "member_external_id",
+                        "in": "query",
+                        "description": "optional external ID for member"
+                    },
+                    {
+                        "name": "member_given_name",
+                        "in": "query",
+                        "description": "member first name"
+                    },
+                    {
+                        "name": "member_surname",
+                        "in": "query",
+                        "description": "member last name"
+                    },
+                    {
+                        "name": "send_welcome_email",
+                        "in": "query",
+                        "description": "optional boolean to send a welcome email to the member. Default is true."
+                    }
+                ]
+            }
+        },
+        "\/members\/get_info": {
+            "post": {
+                "summary": "Get Member Info",
+                "description": "Get member info.",
+                "operationId": "PostMembersGetInfo",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "email",
+                        "in": "query",
+                        "description": "optional email of member"
+                    },
+                    {
+                        "name": "external_id",
+                        "in": "query",
+                        "description": "optional external ID of member"
+                    },
+                    {
+                        "name": "member_id",
+                        "in": "query",
+                        "description": "optional ID of member"
+                    }
+                ]
+            }
+        },
+        "\/members\/get_info_batch": {
+            "post": {
+                "summary": "Get Info Batch",
+                "description": "Get info batch.",
+                "operationId": "PostMembersGetInfoBatch",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "emails",
+                        "in": "query",
+                        "description": "optional list of member emails"
+                    },
+                    {
+                        "name": "external_ids",
+                        "in": "query",
+                        "description": "optional list of external member IDs"
+                    },
+                    {
+                        "name": "member_ids",
+                        "in": "query",
+                        "description": "optional list of member IDs"
+                    }
+                ]
+            }
+        },
+        "\/members\/list": {
+            "post": {
+                "summary": "List Members",
+                "description": "List members.",
+                "operationId": "PostMembersList",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cursor",
+                        "in": "query",
+                        "description": "optional encoded value indicating from what point to get the next limit logs"
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "optional number of results to return per call (default 1000, maximum 1000)"
+                    }
+                ]
+            }
+        },
+        "\/members\/remove": {
+            "post": {
+                "summary": "Remove",
+                "description": "Remove.",
+                "operationId": "PostMembersRemove",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "delete_data",
+                        "in": "query",
+                        "description": "optional controls if the users data will be deleted on their linked devices. Default is true."
+                    },
+                    {
+                        "name": "external_id",
+                        "in": "query",
+                        "description": "optional external ID of member"
+                    },
+                    {
+                        "name": "member_id",
+                        "in": "query",
+                        "description": "optional ID of member"
+                    },
+                    {
+                        "name": "transfer_admin_member_id",
+                        "in": "query",
+                        "description": "optional errors during the transfer process will be sent via email to the transfer_admin_member_id."
+                    },
+                    {
+                        "name": "transfer_dest_member_id",
+                        "in": "query",
+                        "description": "optional files from the deleted member account will be transferred to this member."
+                    }
+                ]
+            }
+        },
+        "\/members\/set_permissions": {
+            "post": {
+                "summary": "Set Member Permissions",
+                "description": "Set member permissions.",
+                "operationId": "PostMembersSetPermissions",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "external_id",
+                        "in": "query",
+                        "description": "optional external ID of member"
+                    },
+                    {
+                        "name": "member_id",
+                        "in": "query",
+                        "description": "optional ID of member"
+                    },
+                    {
+                        "name": "new_is_admin",
+                        "in": "query",
+                        "description": "optional change the admin status of the member."
+                    }
+                ]
+            }
+        },
+        "\/members\/set_profile": {
+            "get": {
+                "summary": "Set Profile",
+                "description": "Set profile.",
+                "operationId": "GetMembersSetProfile",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "external_id",
+                        "in": "query",
+                        "description": "optional external ID of member"
+                    },
+                    {
+                        "name": "member_id",
+                        "in": "query",
+                        "description": "optional ID of member"
+                    },
+                    {
+                        "name": "new_email",
+                        "in": "query",
+                        "description": "optional new email for member."
+                    },
+                    {
+                        "name": "new_external_id",
+                        "in": "query",
+                        "description": "optional new external ID for member"
+                    },
+                    {
+                        "name": "new_given_name",
+                        "in": "query",
+                        "description": "optional new given name for member."
+                    },
+                    {
+                        "name": "new_surname",
+                        "in": "query",
+                        "description": "optional new surname for member."
+                    }
+                ]
+            }
+        },
+        "\/reports\/get_activity": {
+            "post": {
+                "summary": "Get Activity",
+                "description": "Get activity.",
+                "operationId": "PostReportsGetActivity",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "end_date",
+                        "in": "query",
+                        "description": "optional ending date (exclusive)"
+                    },
+                    {
+                        "name": "start_date",
+                        "in": "query",
+                        "description": "optional starting date (inclusive)"
+                    }
+                ]
+            }
+        },
+        "\/reports\/get_devices": {
+            "post": {
+                "summary": "Get Devices",
+                "description": "Get devices.",
+                "operationId": "PostReportsGetDevices",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "end_date",
+                        "in": "query",
+                        "description": "optional ending date (exclusive)"
+                    },
+                    {
+                        "name": "start_date",
+                        "in": "query",
+                        "description": "optional starting date (inclusive)"
+                    }
+                ]
+            }
+        },
+        "\/reports\/get_membership": {
+            "post": {
+                "summary": "Get Membership",
+                "description": "Get membership.",
+                "operationId": "PostReportsGetMembership",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "end_date",
+                        "in": "query",
+                        "description": "optional ending date (exclusive)"
+                    },
+                    {
+                        "name": "start_date",
+                        "in": "query",
+                        "description": "optional starting date (inclusive)"
+                    }
+                ]
+            }
+        },
+        "\/reports\/get_storage": {
+            "post": {
+                "summary": "Get Storage",
+                "description": "Get storage.",
+                "operationId": "PostReportsGetStorage",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "end_date",
+                        "in": "query",
+                        "description": "optional ending date (exclusive)"
+                    },
+                    {
+                        "name": "start_date",
+                        "in": "query",
+                        "description": "optional starting date (inclusive)"
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
