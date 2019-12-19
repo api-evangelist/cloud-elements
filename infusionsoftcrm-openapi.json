@@ -1,0 +1,884 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "api-v2",
+        "title": "infusionsoftcrm",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        "console.cloud-elements.com\/elements\/api-v2\/hubs\/crm"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "BulkLoad": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "BulkStatus": {
+                "type": "object",
+                "properties": {
+                    "batchId": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "message": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "numOfLeadsProcessed": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "numOfRowsFailed": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "numOfRowsWithWarning": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "BulkQuery": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "objectsMetadataFields": {
+                "type": "object",
+                "properties": {
+                    "mask": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "vendorDisplayName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "vendorPath": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "vendorReadOnly": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "vendorRequired": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "Object": {
+                "type": "object",
+                "properties": {
+                    "objectField": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "accounts": {
+                "type": "object",
+                "properties": {
+                    "Company": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "ReferralCode": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "ContactType": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Email": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "AccountId": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "CompanyID": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "ZipFour3": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Leadsource": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "EmailAddress2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Birthday": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "EmailAddress3": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "ZipFour2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "ZipFour1": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone4Ext": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Nickname": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "ContactNotes": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Anniversary": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "City": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Address3Street1": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone4Type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone3Ext": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Address3Street2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Suffix": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "OwnerID": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "State": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "PostalCode2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Country": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "PostalCode3": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "LastName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone5Type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Fax1Type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "AssistantPhone": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "AssistantName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Website": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "PostalCode": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "LeadSourceId": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "JobTitle": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "StreetAddress2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "StreetAddress1": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Country3": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "State3": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Country2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone2Ext": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone1": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "State2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Fax2Type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone3": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone5": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone4": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone3Type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Password": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "City2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "FirstName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "City3": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Title": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone2Type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "MiddleName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "SpouseName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Address2Street2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Address2Street1": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone1Ext": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone5Ext": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Fax2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Fax1": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Username": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone1Type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Address1Type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Address2Type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Address3Type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "BillingInformation": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "objectsMetadata": {
+                "type": "object",
+                "properties": {
+                    "fields": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "opportunities": {
+                "type": "object",
+                "properties": {
+                    "LastUpdatedBy": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "NextActionDate": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "CreatedBy": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "AffiliateId": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "StageID": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "ContactID": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "OpportunityTitle": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "ProjectedRevenueLow": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "ProjectedRevenueHigh": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "EstimatedCloseDate": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "UserID": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "OpportunityNotes": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "StatusID": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "NextActionNotes": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Leadsource": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Objection": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "contacts": {
+                "type": "object",
+                "properties": {
+                    "Company": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "ReferralCode": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "ContactType": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Email": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "AccountId": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "CompanyID": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "ZipFour3": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Leadsource": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "EmailAddress2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Birthday": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "EmailAddress3": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "ZipFour2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "ZipFour1": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone4Ext": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Nickname": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "ContactNotes": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Anniversary": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "City": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Address3Street1": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone4Type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone3Ext": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Address3Street2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Suffix": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "OwnerID": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "State": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "PostalCode2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Country": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "PostalCode3": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "LastName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone5Type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Fax1Type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "AssistantPhone": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "AssistantName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Website": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "PostalCode": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "LeadSourceId": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "JobTitle": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "StreetAddress2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "StreetAddress1": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Country3": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "State3": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Country2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone2Ext": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone1": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "State2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Fax2Type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone3": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone5": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone4": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone3Type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Password": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "City2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "FirstName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "City3": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Title": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone2Type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "MiddleName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "SpouseName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Address2Street2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Address2Street1": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone1Ext": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone5Ext": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Fax2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Fax1": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Username": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone1Type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Address1Type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Address2Type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Address3Type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "BillingInformation": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "users": {
+                "type": "object",
+                "properties": {
+                    "Email": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "HTMLSignature": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "FirstName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Title": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "PostalCode": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "EmailAddress2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "City": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone2Type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "StreetAddress2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "StreetAddress1": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone2Ext": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone1": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone1Ext": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "State": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Signature": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Phone1Type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "LastName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "EmailAddress3": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "MiddleName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Nickname": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "SpouseName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "Suffix": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "ZipFour1": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "Pong": {
+                "type": "object",
+                "properties": {
+                    "dateTime": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "endpoint": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            }
+        }
+    }
+}
