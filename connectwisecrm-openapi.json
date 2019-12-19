@@ -1,0 +1,528 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "api-v2",
+        "title": "connectwisecrm",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        "console.cloud-elements.com\/elements\/api-v2\/hubs\/crm"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "Company": {
+                "type": "object",
+                "properties": {
+                    "accountNumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "companyIdentifier": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "companyName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "defaultBillingContactId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "defaultContactId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "faxNumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastUpdated": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "market": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "phoneNumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "territory": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "webSite": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Contact": {
+                "type": "object",
+                "properties": {
+                    "addressId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "anniversary": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "assistantId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "birthDay": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "children": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "companyIdentifier": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "disablePortalLogin": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "email": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "firstName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "gender": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "inactive": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastUpdated": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "managerId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "married": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "nickName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "personalAddressFlag": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "phone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "phoneExt": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "portalPassword": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "portalSecurityLevel": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "relationship": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "school": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "sid": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "significantOther": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "siteName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "unsubscribeFlag": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "updatedBy": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Incident": {
+                "type": "object",
+                "properties": {
+                    "assignee": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "companyIdentifier": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "reporter": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "subject": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "summary": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "IncidentComment": {
+                "type": "object",
+                "properties": {
+                    "contactId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdBy": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "customerUpdatedFlag": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "dateCreated": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "dateCreatedUtc": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isExternalNote": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isInternalNote": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isPartOfDetailDescription": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isPartOfInternalAnalysis": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isPartOfResolution": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "memberFullName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "memberId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "noteText": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "processNotifications": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "addresses": {
+                "type": "object",
+                "properties": {
+                    "companyAddress": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "companyAddressInfo": {
+                "type": "object",
+                "properties": {
+                    "addressLine1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "addressLine2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "city": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "state": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "zip": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "contactCommunicationItem": {
+                "type": "object",
+                "properties": {
+                    "communicationTypeId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isDefaultForType": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "valueExtension": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "defaultAddress": {
+                "type": "object",
+                "properties": {
+                    "city": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "companyId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "defaultBillFlag": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "defaultFlag": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "defaultShipFlag": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "inactiveFlag": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "siteName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "state": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "zip": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "personalAddress": {
+                "type": "object",
+                "properties": {
+                    "city": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "country": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "state": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "zip": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "phones": {
+                "type": "object",
+                "properties": {
+                    "contactCommunicationItem": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "streetLines": {
+                "type": "object",
+                "properties": {
+                    "string[*]": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "BulkStatus": {
+                "type": "object",
+                "properties": {
+                    "batchId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "message": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "numOfLeadsProcessed": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "numOfRowsFailed": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "numOfRowsWithWarning": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "BulkLoad": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "BulkQuery": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Pong": {
+                "type": "object",
+                "properties": {
+                    "dateTime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "endpoint": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            }
+        }
+    }
+}
