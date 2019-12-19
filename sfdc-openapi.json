@@ -1,0 +1,3334 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "api-v2",
+        "title": "sfdc",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        "console.cloud-elements.com\/elements\/api-v2\/hubs\/crm"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "filterValues": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "date": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "reports": {
+                "type": "object",
+                "properties": {
+                    "allData": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "hasDetailRows": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Account": {
+                "type": "object",
+                "properties": {
+                    "AccountNumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "AnnualRevenue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "BillingCity": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "BillingCountry": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "BillingPostalCode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "BillingState": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "BillingStreet": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CreatedById": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CreatedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Industry": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsDeleted": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastModifiedById": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastModifiedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastReferencedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastViewedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "NumberOfEmployees": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "OwnerId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Ownership": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Phone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "PhotoUrl": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Rating": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ShippingStreet": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Sic": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SystemModStamp": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Type": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Website": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "dataCells": {
+                "type": "object",
+                "properties": {
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Task": {
+                "type": "object",
+                "properties": {
+                    "AccountId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ActivityDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CallDisposition": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CallDurationInSeconds": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CallObject": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CallType": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ConnectionReceivedId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ConnectionSentId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsArchived": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsClosed": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsHighPriority": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsRecurrence": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsReminderSet": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsVisibleInSelfService": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "OwnerId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Priority": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceActivityId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceDayOfMonth": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceDayOfWeekMask": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceEndDateOnly": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceInstance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceInterval": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceMonthOfYear": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceRegeneratedType": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceStartDateOnly": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceTimeZoneSidKey": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceType": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ReminderDateTime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Status": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Subject": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Type": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "WhatCount": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "WhatId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "WhoCount": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "WhoId": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "detailColumnInfo": {
+                "type": "object"
+            },
+            "CustomFieldSecurity": {
+                "type": "object",
+                "properties": {
+                    "profiles": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "reportFilters": {
+                "type": "object",
+                "properties": {
+                    "column": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isRunPageEditable": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "operator": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "COLUMN": {
+                "type": "object",
+                "properties": {
+                    "filterable": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "dataType": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "textarea": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Activity": {
+                "type": "object",
+                "properties": {
+                    "AccountId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ActivityDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ActivityDateTime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CreatedById": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CreatedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "DurationInMinutes": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "EndDateTime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsAllDayEvent": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsArchived": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsChild": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsDeleted": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsGroupEvent": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsPrivate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsRecurrence": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsReminderSet": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastModifiedById": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastModifiedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Location": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "OwnerId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ShowAs": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "StartDateTime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SystemModStamp": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "WhoId": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "reportType": {
+                "type": "object",
+                "properties": {
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Type": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "standardFilters": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "datetime": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "standardDateFilterDurations": {
+                "type": "object",
+                "properties": {
+                    "endDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "startDate": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "reportMetadata": {
+                "type": "object",
+                "properties": {
+                    "showSubtotals": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "reportFormat": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "folderId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "detailColumns": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "standardFilters": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "hasRecordCount": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "showGrandTotal": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "hasDetailRows": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "aggregates": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "sortBy": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "developerName": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Note-PATCH": {
+                "type": "object",
+                "properties": {
+                    "Body": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsPrivate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Title": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "reportExtendedMetadata": {
+                "type": "object"
+            },
+            "sortBy": {
+                "type": "object",
+                "properties": {
+                    "sortColumn": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "sortOrder": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "id": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "RowCount": {
+                "type": "object",
+                "properties": {
+                    "dataType": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "User-POST": {
+                "type": "object",
+                "properties": {
+                    "Alias": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CommunityNickname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CompanyName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Country": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "DefaultGroupNotificationFrequency": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "DigestFrequency": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Email": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "EmailEncodingKey": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "EmailPreferencesAutoBcc": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "EmailPreferencesAutoBccStayInTouch": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "EmailPreferencesStayInTouchReminder": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "FirstName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ForecastEnabled": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsActive": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LanguageLocaleKey": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LocaleSidKey": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "PostalCode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ProfileId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ReceivesAdminInfoEmails": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ReceivesInfoEmails": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "TimeZoneSidKey": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPermissionsCallCenterAutoLogin": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPermissionsChatterAnswersUser": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPermissionsInteractionUser": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPermissionsKnowledgeUser": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPermissionsMarketingUser": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPermissionsMobileUser": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPermissionsOfflineUser": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPermissionsSFContentUser": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPermissionsSiteforceContributorUser": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPermissionsSiteforcePublisherUser": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPermissionsSupportUser": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesActivityRemindersPopup": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesApexPagesDeveloperMode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesContentEmailAsAndWhen": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesContentNoEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisCommentAfterLikeEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisMentionsCommentEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisProfPostCommentEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisableAllFeedsEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisableBookmarkEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisableChangeCommentEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisableEndorsementEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisableFileShareNotificationsForApi": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisableFollowersEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisableLaterCommentEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisableLikeEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisableMentionsPostEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisableMessageEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisableProfilePostEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisableSharePostEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesEnableAutoSubForFeeds": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesEventRemindersCheckboxDefault": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesHideCSNDesktopTask": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesHideCSNGetChatterMobileTask": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesHideChatterOnboardingSplash": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesHideS1BrowserUI": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesHideSecondChatterOnboardingSplash": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesReminderSoundOff": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowCityToExternalUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowCityToGuestUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowCountryToExternalUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowCountryToGuestUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowEmailToExternalUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowFaxToExternalUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowManagerToExternalUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowMobilePhoneToExternalUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowPostalCodeToExternalUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowPostalCodeToGuestUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowProfilePicToGuestUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowStateToExternalUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowStateToGuestUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowStreetAddressToExternalUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowTitleToExternalUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowTitleToGuestUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowWorkPhoneToExternalUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesTaskRemindersCheckboxDefault": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Username": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "standardFilterInfos": {
+                "type": "object"
+            },
+            "Task-POST": {
+                "type": "object",
+                "properties": {
+                    "AccountId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ActivityDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CallDisposition": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CallDurationInSeconds": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CallObject": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CallType": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ConnectionReceivedId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ConnectionSentId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsArchived": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsClosed": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsHighPriority": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsRecurrence": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsReminderSet": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsVisibleInSelfService": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "OwnerId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Priority": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceDayOfMonth": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceDayOfWeekMask": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceEndDateOnly": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceInstance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceInterval": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceMonthOfYear": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceRegeneratedType": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceStartDateOnly": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceTimeZoneSidKey": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceType": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ReminderDateTime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Status": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Subject": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Type": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "WhatCount": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "WhatId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "WhoCount": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "WhoId": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "BulkLoad": {
+                "type": "object",
+                "properties": {
+                    "Id": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "boolean_": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "attachmentsListObject": {
+                "type": "object",
+                "properties": {
+                    "ParentId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastModifiedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsDeleted": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SystemModStamp": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "OwnerId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CreatedById": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CreatedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsPrivate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "BodyLength": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Body": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastModifiedById": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "T!T": {
+                "type": "object",
+                "properties": {
+                    "aggregates": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "rows": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "double": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "active": {
+                "type": "object",
+                "properties": {
+                    "filterValues": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Type": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Opportunity-POST": {
+                "type": "object",
+                "properties": {
+                    "AccountId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Amount": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CloseDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ForecastCategoryName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsPrivate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LeadSource": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Probability": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "StageName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Type": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "reportsMetadataListObject": {
+                "type": "object",
+                "properties": {
+                    "instancesUrl": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "describeUrl": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Campaign": {
+                "type": "object",
+                "properties": {
+                    "Description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Status": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Type": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Note-POST": {
+                "type": "object",
+                "properties": {
+                    "Body": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsPrivate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Title": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "phone": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Note": {
+                "type": "object",
+                "properties": {
+                    "Body": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CreatedById": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CreatedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsDeleted": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsPrivate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastModifiedById": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastModifiedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "OwnerId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ParentId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SystemModStamp": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Title": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "string_": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Task-PATCH": {
+                "type": "object",
+                "properties": {
+                    "AccountId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ActivityDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CallDisposition": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CallDurationInSeconds": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CallObject": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CallType": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ConnectionReceivedId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ConnectionSentId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsArchived": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsClosed": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsHighPriority": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsReminderSet": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsVisibleInSelfService": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "OwnerId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Priority": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceDayOfMonth": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceDayOfWeekMask": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceEndDateOnly": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceInstance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceInterval": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceMonthOfYear": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceRegeneratedType": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceStartDateOnly": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceTimeZoneSidKey": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RecurrenceType": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ReminderDateTime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Status": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Subject": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Type": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "WhatCount": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "WhatId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "WhoCount": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "WhoId": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "factMap": {
+                "type": "object"
+            },
+            "aggregates": {
+                "type": "object",
+                "properties": {
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CustomField-POST": {
+                "type": "object",
+                "properties": {
+                    "caseSensitive": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "defaultValue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "deprecated": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "displayFormat": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "encrypted": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "escapeMarkup": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "externalDeveloperName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "filteringDisabled": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "formula": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "helpText": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isExternalId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "length": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "precision": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "required": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "scale": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "sortingDisabled": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Type": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "unique": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "visibleLines": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Object": {
+                "type": "object",
+                "properties": {
+                    "Id": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Pong": {
+                "type": "object",
+                "properties": {
+                    "dateTime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "endpoint": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "attachments": {
+                "type": "object",
+                "properties": {
+                    "ParentId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastModifiedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsDeleted": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ContentType": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SystemModStamp": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "OwnerId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CreatedById": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CreatedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsPrivate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "BodyLength": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Body": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastModifiedById": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "reportTypeMetadata": {
+                "type": "object",
+                "properties": {
+                    "categories": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "standardDateFilterDurationGroups": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "User": {
+                "type": "object",
+                "properties": {
+                    "Alias": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "BadgeText": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CommunityNickname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CompanyName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Country": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CreatedById": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CreatedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "DefaultGroupNotificationFrequency": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "DigestFrequency": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Email": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "EmailEncodingKey": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "EmailPreferencesAutoBcc": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "EmailPreferencesAutoBccStayInTouch": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "EmailPreferencesStayInTouchReminder": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "FirstName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ForecastEnabled": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "FullPhotoUrl": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsActive": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsBadged": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LanguageLocaleKey": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastLoginDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastModifiedById": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastModifiedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastPasswordChangeDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastReferencedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastViewedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LocaleSidKey": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "PostalCode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ProfileId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ReceivesAdminInfoEmails": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ReceivesInfoEmails": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SmallPhotoUrl": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SystemModStamp": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "TimeZoneSidKey": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPermissionsCallCenterAutoLogin": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPermissionsChatterAnswersUser": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPermissionsInteractionUser": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPermissionsKnowledgeUser": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPermissionsMarketingUser": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPermissionsMobileUser": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPermissionsOfflineUser": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPermissionsSFContentUser": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPermissionsSiteforceContributorUser": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPermissionsSiteforcePublisherUser": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPermissionsSupportUser": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesActivityRemindersPopup": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesApexPagesDeveloperMode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesContentEmailAsAndWhen": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesContentNoEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisCommentAfterLikeEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisMentionsCommentEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisProfPostCommentEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisableAllFeedsEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisableBookmarkEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisableChangeCommentEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisableEndorsementEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisableFileShareNotificationsForApi": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisableFollowersEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisableLaterCommentEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisableLikeEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisableMentionsPostEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisableMessageEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisableProfilePostEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesDisableSharePostEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesEnableAutoSubForFeeds": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesEventRemindersCheckboxDefault": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesHideCSNDesktopTask": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesHideCSNGetChatterMobileTask": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesHideChatterOnboardingSplash": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesHideS1BrowserUI": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesHideSecondChatterOnboardingSplash": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesReminderSoundOff": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowCityToExternalUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowCityToGuestUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowCountryToExternalUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowCountryToGuestUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowEmailToExternalUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowFaxToExternalUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowManagerToExternalUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowMobilePhoneToExternalUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowPostalCodeToExternalUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowPostalCodeToGuestUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowProfilePicToGuestUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowStateToExternalUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowStateToGuestUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowStreetAddressToExternalUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowTitleToExternalUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowTitleToGuestUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesShowWorkPhoneToExternalUsers": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserPreferencesTaskRemindersCheckboxDefault": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UserType": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Username": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "columns": {
+                "type": "object"
+            },
+            "picklist": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "BulkQuery": {
+                "type": "object",
+                "properties": {
+                    "Id": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Lead-PATCH": {
+                "type": "object",
+                "properties": {
+                    "AnnualRevenue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "City": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Company": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Country": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Email": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "FirstName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Industry": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsUnreadByOwner": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LeadSource": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Phone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "PostalCode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Rating": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Salutation": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "State": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Status": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Street": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Title": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "aggregateColumnInfo": {
+                "type": "object"
+            },
+            "groupingsAcross": {
+                "type": "object"
+            },
+            "CustomField-PUT": {
+                "type": "object",
+                "properties": {
+                    "caseSensitive": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "defaultValue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "deprecated": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "displayFormat": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "encrypted": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "escapeMarkup": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "externalDeveloperName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "filteringDisabled": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "formula": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "helpText": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isExternalId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "length": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "precision": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "required": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "scale": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "sortingDisabled": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Type": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "unique": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "visibleLines": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Opportunity": {
+                "type": "object",
+                "properties": {
+                    "AccountId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Amount": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CloseDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CreatedById": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CreatedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ExpectedRevenue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Fiscal": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "FiscalQuarter": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "FiscalYear": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ForecastCategory": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ForecastCategoryName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "HasOpportunityLineItem": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsClosed": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsDeleted": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsPrivate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsWon": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastModifiedById": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastModifiedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastReferencedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastViewedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LeadSource": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "OwnerId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Probability": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "StageName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SystemModStamp": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Type": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Lead": {
+                "type": "object",
+                "properties": {
+                    "AnnualRevenue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "City": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Company": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Country": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CreatedById": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CreatedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Email": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "FirstName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Industry": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsConverted": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsDeleted": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsUnreadByOwner": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastModifiedById": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastModifiedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastReferencedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastViewedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LeadSource": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "OwnerId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Phone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "PhotoUrl": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "PostalCode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Rating": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Salutation": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "State": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Status": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Street": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SystemModStamp": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Title": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "currency": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "categories": {
+                "type": "object",
+                "properties": {
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "dataTypeFilterOperatorMap": {
+                "type": "object",
+                "properties": {
+                    "date": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "dateTime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "boolean_": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Phone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "double": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "picklist": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "string_": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "textarea": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "currency": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "int": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Email": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "email": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "standardDateFilterDurationGroups": {
+                "type": "object",
+                "properties": {
+                    "standardDateFilterDurations": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "standardDateFilter": {
+                "type": "object",
+                "properties": {
+                    "durationValue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "column": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CustomFieldSecurityProfile": {
+                "type": "object",
+                "properties": {
+                    "editable": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "readable": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "visible": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "BulkStatus": {
+                "type": "object",
+                "properties": {
+                    "errors": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "processed": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "processingTime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "State": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Account-POST": {
+                "type": "object",
+                "properties": {
+                    "AccountNumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "AnnualRevenue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "BillingCity": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "BillingCountry": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "BillingPostalCode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "BillingState": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "BillingStreet": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Industry": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "NumberOfEmployees": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Ownership": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Phone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Rating": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ShippingStreet": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Sic": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Type": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Website": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Contact-POST": {
+                "type": "object",
+                "properties": {
+                    "AccountId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Birthdate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Department": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Email": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "FirstName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "HasOptedOutOfEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LeadSource": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "MailingStreet": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "MobilePhone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Phone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Salutation": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Title": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "rows": {
+                "type": "object",
+                "properties": {
+                    "dataCells": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "groupingsDown": {
+                "type": "object"
+            },
+            "int": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Contact": {
+                "type": "object",
+                "properties": {
+                    "AccountId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Birthdate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CreatedById": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CreatedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Department": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Email": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "FirstName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "HasOptedOutOfEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsDeleted": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsEmailBounced": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastModifiedById": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastModifiedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastReferencedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastViewedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LeadSource": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "MailingStreet": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "MobilePhone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "OwnerId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Phone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "PhotoUrl": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Salutation": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SystemModStamp": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Title": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Activity-POST": {
+                "type": "object",
+                "properties": {
+                    "ActivityDateTime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "DurationInMinutes": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsAllDayEvent": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsPrivate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsReminderSet": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Location": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ShowAs": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "StartDateTime": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CustomField": {
+                "type": "object",
+                "properties": {
+                    "caseSensitive": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "defaultValue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "deprecated": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "displayFormat": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "encrypted": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "escapeMarkup": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "externalDeveloperName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "filteringDisabled": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "formula": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "helpText": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isExternalId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "length": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "precision": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "required": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "scale": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "sortingDisabled": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Type": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "unique": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "visibleLines": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Lead-POST": {
+                "type": "object",
+                "properties": {
+                    "AnnualRevenue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "City": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Company": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Country": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Email": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "FirstName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Industry": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "IsUnreadByOwner": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LastName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LeadSource": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Phone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "PostalCode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Rating": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Salutation": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "State": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Status": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Street": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Title": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "attributes": {
+                "type": "object",
+                "properties": {
+                    "instancesUrl": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "reportId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "reportName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Type": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "describeUrl": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "reportsMetadata": {
+                "type": "object"
+            }
+        }
+    }
+}
