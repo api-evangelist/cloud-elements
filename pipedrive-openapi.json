@@ -1,0 +1,2640 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "api-v2",
+        "title": "pipedrive",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        "console.cloud-elements.com\/elements\/api-v2\/hubs\/crm"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "notes": {
+                "type": "object",
+                "properties": {
+                    "company_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pinned_to_person_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "content": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pinned_to_deal_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pinned_to_organization_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "org_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "owner_id": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "has_pic": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "email": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "stay_in_pipeline_stages": {
+                "type": "object",
+                "properties": {
+                    "order_of_stages": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "times_in_stages": {
+                "type": "object",
+                "properties": {
+                    "1": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "accountsNotesListObject": {
+                "type": "object",
+                "properties": {
+                    "pinned_to_organization_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "org_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pinned_to_person_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "content": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pinned_to_deal_flag": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "usersListObject": {
+                "type": "object",
+                "properties": {
+                    "is_you": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "last_login": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "locale": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "is_admin": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "role_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "timezone_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "default_currency": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "lang": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "email": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "activated": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "MetaData": {
+                "type": "object",
+                "properties": {
+                    "format": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "path": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "from": {
+                "type": "object",
+                "properties": {
+                    "address": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "person_id": {
+                "type": "object",
+                "properties": {
+                    "phone": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "email": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "opportunitiesNotesListObject": {
+                "type": "object",
+                "properties": {
+                    "active_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pinned_to_person_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "content": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pinned_to_deal_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pinned_to_organization_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "deal_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "person_id": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "opportunitiesActivities": {
+                "type": "object",
+                "properties": {
+                    "note": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "subject": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "public_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "duration": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "deal_title": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "person_dropbox_bcc": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "deal_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "assigned_to_user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "person_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "owner_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "company_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "person_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "done": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_by_user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "reference_type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "deal_dropbox_bcc": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "contactsActivitiesListObject": {
+                "type": "object",
+                "properties": {
+                    "note": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "subject": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "public_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "duration": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "deal_title": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "person_dropbox_bcc": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "deal_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "assigned_to_user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "person_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "owner_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "company_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "note_clean": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "person_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "done": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_by_user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "reference_type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "deal_dropbox_bcc": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "BulkLoad": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "accountsListObject": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "company_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "open_deals_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "closed_deals_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "email_messages_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "people_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "activities_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "done_activities_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "undone_activities_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "reference_activities_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "files_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "notes_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "followers_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "won_deals_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "lost_deals_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "category_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "picture_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "country_code": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "first_char": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "visible_to": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "next_activity_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "last_activity_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "address": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "address_subpremise": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "address_street_number": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "address_route": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "address_sublocality": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "address_locality": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "address_admin_area_level_1": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "address_admin_area_level_2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "address_country": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "address_postal_code": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "address_formatted_address": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "owner_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "cc_email": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "accountsActivities": {
+                "type": "object",
+                "properties": {
+                    "note": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "owner_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "company_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "subject": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "done": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_by_user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "reference_type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "duration": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "org_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "org_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "assigned_to_user_id": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "contactsActivities": {
+                "type": "object",
+                "properties": {
+                    "note": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "subject": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "public_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "duration": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "deal_title": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "person_dropbox_bcc": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "deal_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "assigned_to_user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "person_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "owner_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "company_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "person_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "done": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_by_user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "reference_type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "deal_dropbox_bcc": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "opportunitiesActivitiesListObject": {
+                "type": "object",
+                "properties": {
+                    "note": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "subject": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "public_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "duration": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "deal_title": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "person_dropbox_bcc": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "deal_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "assigned_to_user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "person_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "owner_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "company_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "note_clean": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "person_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "done": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_by_user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "reference_type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "deal_dropbox_bcc": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "users": {
+                "type": "object",
+                "properties": {
+                    "is_you": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "last_login": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "locale": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "is_admin": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "role_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "timezone_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "default_currency": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "lang": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "email": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "activated": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "phone": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "primary": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "user_id": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "has_pic": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "email": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pic_hash": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "org_id": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "people_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "owner_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "cc_email": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "person": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "Object": {
+                "type": "object",
+                "properties": {
+                    "objectField": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "objectsMetadata": {
+                "type": "object",
+                "properties": {
+                    "fields": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "opportunitiesNotes": {
+                "type": "object",
+                "properties": {
+                    "company_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pinned_to_person_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "content": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pinned_to_deal_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pinned_to_organization_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "deal_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "person_id": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "Pong": {
+                "type": "object",
+                "properties": {
+                    "dateTime": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "endpoint": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "opportunitiesListObject": {
+                "type": "object",
+                "properties": {
+                    "email_messages_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "cc_email": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "products_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "next_activity_type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "next_activity_duration": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "participants_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "owner_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "stage_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "undone_activities_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "person_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "next_activity_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "org_hidden": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "stage_order_nr": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "next_activity_subject": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "visible_to": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "average_stage_progress": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "notes_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "formatted_value": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "formatted_weighted_value": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "last_activity_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "activities_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pipeline_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "currency": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "weighted_value": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "org_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "next_activity_note": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "person_hidden": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "files_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "reference_activities_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "lost_reason": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "deleted": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "followers_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "done_activities_count": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "accountsNotes": {
+                "type": "object",
+                "properties": {
+                    "company_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pinned_to_person_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "content": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pinned_to_deal_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pinned_to_organization_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "org_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "deal": {
+                "type": "object",
+                "properties": {
+                    "title": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "BulkQuery": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "average_time_to_won": {
+                "type": "object",
+                "properties": {
+                    "total_seconds": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "s": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "d": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "h": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "y": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "i": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "m": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "activitiesListObject": {
+                "type": "object",
+                "properties": {
+                    "note": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "owner_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "company_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "subject": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "done": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_by_user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "reference_type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "duration": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "assigned_to_user_id": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "contactsEmailsListObject": {
+                "type": "object",
+                "properties": {
+                    "subject": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "body": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "thread_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "message_time": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "update_time": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "from": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "draft_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "summary": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "company_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "replied_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "hashcode": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "message_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "sent_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "shared_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "read_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "mailbox": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "read_time": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "has_body_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "person_ids": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "to": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "add_time": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "attachment_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "include_body_flag": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "email": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "primary": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "opportunitiesEmailsListObject": {
+                "type": "object",
+                "properties": {
+                    "subject": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "body": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "thread_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "message_time": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "update_time": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "from": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "draft_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "summary": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "company_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "replied_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "hashcode": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "message_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "sent_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "shared_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "read_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "mailbox": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "read_time": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "has_body_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "person_ids": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "to": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "add_time": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "attachment_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "include_body_flag": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "BulkStatus": {
+                "type": "object",
+                "properties": {
+                    "batchId": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "message": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "numOfLeadsProcessed": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "numOfRowsFailed": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "numOfRowsWithWarning": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "contactsListObject": {
+                "type": "object",
+                "properties": {
+                    "email_messages_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "open_deals_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "cc_email": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "last_activity_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "participant_open_deals_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "activities_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "org_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "first_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "won_deals_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "files_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "owner_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "company_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "undone_activities_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "first_char": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "closed_deals_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "last_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "next_activity_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "reference_activities_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "picture_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "visible_to": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "notes_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "followers_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "lost_deals_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "done_activities_count": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "objectsMetadataFields": {
+                "type": "object",
+                "properties": {
+                    "mask": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "vendorDisplayName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "vendorPath": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "vendorReadOnly": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "vendorRequired": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "accountsEmailsListObject": {
+                "type": "object",
+                "properties": {
+                    "subject": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "body": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "thread_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "message_time": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "update_time": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "from": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "draft_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "summary": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "company_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "replied_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "hashcode": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "message_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "sent_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "shared_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "read_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "mailbox": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "read_time": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "has_body_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "person_ids": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "to": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "add_time": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "attachment_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "include_body_flag": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "contactsNotesListObject": {
+                "type": "object",
+                "properties": {
+                    "pinned_to_organization_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pinned_to_person_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "content": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pinned_to_deal_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "person_id": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "opportunities": {
+                "type": "object",
+                "properties": {
+                    "email_messages_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "cc_email": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "products_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "next_activity_type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "next_activity_duration": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "participants_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "owner_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "stage_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "undone_activities_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "person_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "next_activity_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "org_hidden": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "stage_order_nr": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "next_activity_subject": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "visible_to": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "average_stage_progress": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "notes_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "formatted_value": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "formatted_weighted_value": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "last_activity_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "activities_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pipeline_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "currency": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "weighted_value": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "org_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "next_activity_note": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "person_hidden": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "files_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "reference_activities_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "lost_reason": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "deleted": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "followers_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "done_activities_count": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "activities": {
+                "type": "object",
+                "properties": {
+                    "note": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "owner_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "company_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "subject": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "done": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_by_user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "reference_type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "duration": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "assigned_to_user_id": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "organization": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "accountsActivitiesListObject": {
+                "type": "object",
+                "properties": {
+                    "note": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "owner_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "company_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "subject": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "note_clean": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "done": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_by_user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "reference_type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "duration": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "org_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "org_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "assigned_to_user_id": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "accounts": {
+                "type": "object",
+                "properties": {
+                    "company_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "open_deals_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "closed_deals_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "email_messages_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "people_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "activities_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "done_activities_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "undone_activities_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "reference_activities_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "files_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "notes_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "followers_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "won_deals_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "lost_deals_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "category_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "picture_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "country_code": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "first_char": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "visible_to": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "next_activity_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "last_activity_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "address": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "address_subpremise": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "address_street_number": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "address_route": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "address_sublocality": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "address_locality": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "address_admin_area_level_1": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "address_admin_area_level_2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "address_country": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "address_postal_code": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "address_formatted_address": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "owner_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "cc_email": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "to": {
+                "type": "object",
+                "properties": {
+                    "address": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "person_id": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "notesListObject": {
+                "type": "object",
+                "properties": {
+                    "pinned_to_organization_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "org_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pinned_to_person_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "content": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pinned_to_deal_flag": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "user": {
+                "type": "object",
+                "properties": {
+                    "is_you": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "email": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "contacts": {
+                "type": "object",
+                "properties": {
+                    "email_messages_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "open_deals_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "cc_email": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "last_activity_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "participant_open_deals_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "activities_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "org_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "first_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "won_deals_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "files_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "owner_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "company_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "undone_activities_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "first_char": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "closed_deals_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "last_name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "next_activity_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "reference_activities_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "picture_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "visible_to": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "notes_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "followers_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "lost_deals_count": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "done_activities_count": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "contactsNotes": {
+                "type": "object",
+                "properties": {
+                    "company_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "active_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pinned_to_person_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "content": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pinned_to_deal_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "pinned_to_organization_flag": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "user_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "person_id": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "age": {
+                "type": "object",
+                "properties": {
+                    "total_seconds": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "s": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "d": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "h": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "y": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "i": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "m": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            }
+        }
+    }
+}
