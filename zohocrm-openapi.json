@@ -1,0 +1,1173 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "api-v2",
+        "title": "zohocrm",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        "console.cloud-elements.com\/elements\/api-v2\/hubs\/crm"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "Account": {
+                "type": "object",
+                "properties": {
+                    "ACCOUNTID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Account Name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Account Number": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Account Owner": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Account Site": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Account Type": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Annual Revenue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Billing City": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Billing Code": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Billing Country": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Billing State": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Billing Street": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Created By": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Created Time": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Employees": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Industry": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Last Activity Time": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "MODIFIEDBY": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Modified By": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Modified Time": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Ownership": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "PARENTACCOUNTID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Parent Account": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Phone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Rating": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SIC Code": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SMCREATORID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SMOWNERID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Shipping City": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Shipping Code": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Shipping Country": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Shipping State": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Shipping Street": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Ticker Symbol": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Website": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Campaign": {
+                "type": "object",
+                "properties": {
+                    "Status": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "MODIFIEDBY": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SMCREATORID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SMOWNERID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Expected Revenue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Modified Time": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Created Time": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Modified By": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Actual Cost": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Type": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Start Date": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Expected Response": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Budgeted Cost": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Campaign Owner": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Created By": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CAMPAIGNID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Campaign Name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Num sent": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Contact": {
+                "type": "object",
+                "properties": {
+                    "ACCOUNTID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Account Name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Add to QuickBooks": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Assistant": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Asst Phone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CAMPAIGNID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CONTACTID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Campaign Source": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Contact Owner": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Created By": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Created Time": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Date of Birth": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Department": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Email": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Email Opt Out": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "First Name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Home Phone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Last Activity Time": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Last Name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Lead Source": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "MODIFIEDBY": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Mailing City": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Mailing Country": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Mailing State": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Mailing Street": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Mailing Zip": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Mobile": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Modified By": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Modified Time": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Other City": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Other Country": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Other Phone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Other State": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Other Street": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Other Zip": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Phone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Reports To": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SMCREATORID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SMOWNERID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Salutation": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Secondary Email": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Skype ID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Title": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Twitter": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "VENDORID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Vendor Name": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Lead": {
+                "type": "object",
+                "properties": {
+                    "Annual Revenue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CAMPAIGNID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Campaign Source": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "City": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Company": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Country": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Created By": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Created Time": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Designation": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Email": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Email Opt Out": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "First Name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Industry": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "LEADID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Last Activity Time": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Last Name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Lead Owner": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Lead Source": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Lead Status": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "MODIFIEDBY": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Mobile": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Modified By": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Modified Time": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "No of Employees": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Phone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Rating": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SMCREATORID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SMOWNERID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Salutation": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Secondary Email": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Skype ID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "State": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Street": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Twitter": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Website": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Zip Code": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Notes": {
+                "type": "object",
+                "properties": {
+                    "Created By": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Created Time": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ISVOICENOTES": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "MODIFIEDBY": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Modified By": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Modified Time": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Note Content": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Owner Name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SMCREATORID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SMOWNERID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Title": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Notes-POST": {
+                "type": "object",
+                "properties": {
+                    "Note Content": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Title": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Opportunity": {
+                "type": "object",
+                "properties": {
+                    "ACCOUNTID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Account Name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Amount": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CAMPAIGNID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CONTACTID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Campaign Source": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Closing Date": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Contact Name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Created By": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Created Time": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Expected Revenue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Last Activity Time": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Lead Conversion Time": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Lead Source": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "MODIFIEDBY": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Modified By": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Modified Time": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Next Step": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Overall Sales Duration": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "POTENTIALID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Potential Name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Potential Owner": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Probability": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SMCREATORID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SMOWNERID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Sales Cycle Duration": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Stage": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Type": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Product": {
+                "type": "object",
+                "properties": {
+                    "Product Name": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "User": {
+                "type": "object",
+                "properties": {
+                    "City": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "confirm": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "content": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Country": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Email": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "language": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Mobile": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Phone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "profile": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "role": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "State": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Status": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Street": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "timezone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Website": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "zip": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "zuid": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "calls": {
+                "type": "object",
+                "properties": {
+                    "ACTIVITYID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Billable": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CONTACTID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Call Duration": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Call Duration (in seconds)": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Call Owner": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Call Purpose": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Call Status": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Call Type": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Contact Name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Created By": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Created Time": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "MODIFIEDBY": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Modified By": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Modified Time": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RELATEDTOID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Related To": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SEMODULE": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SMCREATORID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SMOWNERID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Subject": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "events": {
+                "type": "object",
+                "properties": {
+                    "ACTIVITYID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "CONTACTID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Contact Name": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Created By": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Created Time": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "End DateTime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Event Owner": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "MODIFIEDBY": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Modified By": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Modified Time": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "RELATEDTOID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Related To": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SEMODULE": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SMCREATORID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "SMOWNERID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Start DateTime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Subject": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "UID": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Venue": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "tasks": {
+                "type": "object",
+                "properties": {
+                    "Accounts": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Contacts\/Leads": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Due Date": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Priority": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Recurring Activity": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Remind At": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Send Notification Email": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Status": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Subject": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Task Owner": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "BulkStatus": {
+                "type": "object",
+                "properties": {
+                    "batchId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "message": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "numOfLeadsProcessed": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "numOfRowsFailed": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "numOfRowsWithWarning": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Status": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "BulkLoad": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Status": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "BulkQuery": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "Status": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Pong": {
+                "type": "object",
+                "properties": {
+                    "dateTime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "endpoint": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            }
+        }
+    }
+}
