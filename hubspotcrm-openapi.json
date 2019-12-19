@@ -1,0 +1,444 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "api-v2",
+        "title": "hubspotcrm",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        "console.cloud-elements.com\/elements\/api-v2\/hubs\/crm"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "Account": {
+                "type": "object",
+                "properties": {
+                    "companyId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isDeleted": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "portalId": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "AccountProperties": {
+                "type": "object",
+                "properties": {
+                    "description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Activity": {
+                "type": "object"
+            },
+            "BulkContact": {
+                "type": "object",
+                "properties": {
+                    "email": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "BulkContactProperties": {
+                "type": "object",
+                "properties": {
+                    "firstname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastname": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Contact": {
+                "type": "object",
+                "properties": {
+                    "vid": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "ContactProperties": {
+                "type": "object",
+                "properties": {
+                    "address": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "city": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "company": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "email": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "firstname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "phone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "state": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "website": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "zip": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CreateUpdateOwner": {
+                "type": "object",
+                "properties": {
+                    "email": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "firstname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "portalId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "quota": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Lead": {
+                "type": "object",
+                "properties": {
+                    "properties": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Metadata": {
+                "type": "object",
+                "properties": {
+                    "error": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastProcessingStateChangeAt": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastSizeChangeAt": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "processing": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "size": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "body": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Opportunity": {
+                "type": "object",
+                "properties": {
+                    "dealId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "portalId": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "OpportunityProperties": {
+                "type": "object",
+                "properties": {
+                    "amount": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "closed_lost_reason": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "closedate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "dealname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "dealstage": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "hs_createdate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "hs_lastmodifieddate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "hubspot_owner_assigneddate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "hubspot_owner_id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "notes_last_contacted": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "notes_last_updated": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "num_contacted_notes": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "num_notes": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Owner": {
+                "type": "object",
+                "properties": {
+                    "createdAt": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "email": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "firstname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastname": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ownerId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "portalId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "quota": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "updatedAt": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Pong": {
+                "type": "object",
+                "properties": {
+                    "dateTime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "endpoint": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Property": {
+                "type": "object",
+                "properties": {
+                    "property": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "UnenrollmentSetting": {
+                "type": "object",
+                "properties": {
+                    "excludedWorkflows": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "associations": {
+                "type": "object",
+                "properties": {
+                    "companyIds": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "contactIds": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "dealIds": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ownerIds": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "engagement": {
+                "type": "object",
+                "properties": {
+                    "active": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ownerId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "timestamp": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "BulkStatus": {
+                "type": "object",
+                "properties": {
+                    "batchId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "message": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "numOfLeadsProcessed": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "numOfRowsFailed": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "numOfRowsWithWarning": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "BulkLoad": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "BulkQuery": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            }
+        }
+    }
+}
