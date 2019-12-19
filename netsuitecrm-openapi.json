@@ -1,0 +1,2020 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "api-v2",
+        "title": "netsuitecrm",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        "console.cloud-elements.com\/elements\/api-v2\/hubs\/crm"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "Account": {
+                "type": "object",
+                "properties": {
+                    "accountNumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "aging": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "altEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "altName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "altPhone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "balance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "billPay": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "clickStream": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "comments": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "companyName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "consolAging": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "consolBalance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "consolDaysOverdue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "consolDepositBalance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "consolOverdueBalance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "consolUnbilledOrders": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "contribPct": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "creditLimit": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "dateCreated": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "daysOverdue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "defaultAddress": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "defaultOrderPriority": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "depositBalance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "displaySymbol": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "email": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "emailTransactions": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "endDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "entityId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "estimatedBudget": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "externalId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "faxTransactions": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "firstName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "firstVisit": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "giveAccess": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "homePhone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "internalId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isBudgetApproved": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isInactive": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isPerson": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "keywords": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastModifiedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastPageVisited": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastVisit": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "middleName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "mobilePhone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "openingBalance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "openingBalanceDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "overdueBalance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "overrideCurrencyFormat": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "password": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "password2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "phone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "phoneticName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "printOnCheckAs": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "printTransactions": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "referrer": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "reminderDays": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "requirePwdChange": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "resaleNumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "salutation": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "sendEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "shipComplete": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "startDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "syncPartnerTeams": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "taxExempt": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "taxable": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "thirdPartyAcct": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "thirdPartyZipcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "unbilledOrders": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "vatRegNumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "visits": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "webLead": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Address": {
+                "type": "object",
+                "properties": {
+                    "addr1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "addr2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "addr3": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "addrPhone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "addrText": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "addressee": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "attention": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "city": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "internalId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "override": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "state": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "zip": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CategoryList": {
+                "type": "object",
+                "properties": {
+                    "category": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Contact": {
+                "type": "object",
+                "properties": {
+                    "altEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "assistantPhone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "billPay": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "comments": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "dateCreated": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "defaultAddress": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "email": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "entityId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "externalId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "firstName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "homePhone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "internalId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isInactive": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isPrivate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastModifiedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "middleName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "mobilePhone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "officePhone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "phone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "phoneticName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "salutation": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "supervisorPhone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "ContactAccessRoles": {
+                "type": "object",
+                "properties": {
+                    "email": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "giveAccess": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "password": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "password2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "sendEmail": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "ContactAccessRolesList": {
+                "type": "object",
+                "properties": {
+                    "contactRoles": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "replaceAll": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "ContactAddressbook": {
+                "type": "object",
+                "properties": {
+                    "defaultBilling": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "defaultShipping": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "internalId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "ContactAddressbookList": {
+                "type": "object",
+                "properties": {
+                    "addressbook": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "replaceAll": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Country": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CurrencySymbolPlacement": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CustomFieldList": {
+                "type": "object",
+                "properties": {
+                    "customField": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CustomFieldRef": {
+                "type": "object",
+                "properties": {
+                    "internalId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "scriptId": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Customer": {
+                "type": "object",
+                "properties": {
+                    "accountNumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "aging": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "altEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "altName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "altPhone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "balance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "billPay": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "clickStream": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "comments": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "companyName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "consolAging": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "consolBalance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "consolDaysOverdue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "consolDepositBalance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "consolOverdueBalance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "consolUnbilledOrders": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "contribPct": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "creditLimit": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "dateCreated": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "daysOverdue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "defaultAddress": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "defaultOrderPriority": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "depositBalance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "displaySymbol": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "email": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "emailTransactions": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "endDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "entityId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "estimatedBudget": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "externalId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "faxTransactions": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "firstName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "firstVisit": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "giveAccess": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "homePhone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "internalId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isBudgetApproved": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isInactive": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isPerson": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "keywords": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastModifiedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastPageVisited": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastVisit": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "middleName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "mobilePhone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "openingBalance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "openingBalanceDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "overdueBalance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "overrideCurrencyFormat": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "password": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "password2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "phone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "phoneticName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "printOnCheckAs": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "printTransactions": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "referrer": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "reminderDays": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "requirePwdChange": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "resaleNumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "salutation": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "sendEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "shipComplete": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "startDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "syncPartnerTeams": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "taxExempt": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "taxable": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "thirdPartyAcct": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "thirdPartyZipcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "unbilledOrders": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "vatRegNumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "visits": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "webLead": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CustomerAddressbook": {
+                "type": "object",
+                "properties": {
+                    "defaultBilling": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "defaultShipping": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "internalId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isResidential": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CustomerAddressbookList": {
+                "type": "object",
+                "properties": {
+                    "addressbook": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "replaceAll": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CustomerCreditCards": {
+                "type": "object",
+                "properties": {
+                    "ccDefault": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ccExpireDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ccMemo": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ccName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "ccNumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "debitcardIssueNo": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "internalId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "stateFrom": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "validfrom": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CustomerCreditCardsList": {
+                "type": "object",
+                "properties": {
+                    "creditCards": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "replaceAll": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CustomerCreditHoldOverride": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CustomerCurrency": {
+                "type": "object",
+                "properties": {
+                    "balance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "consolBalance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "consolDepositBalance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "consolOverdueBalance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "consolUnbilledOrders": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "depositBalance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "displaySymbol": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "overdueBalance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "overrideCurrencyFormat": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "unbilledOrders": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CustomerCurrencyList": {
+                "type": "object",
+                "properties": {
+                    "currency": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "replaceAll": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CustomerDownload": {
+                "type": "object",
+                "properties": {
+                    "expiration": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "licenseCode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "remainingDownloads": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CustomerDownloadList": {
+                "type": "object",
+                "properties": {
+                    "download": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "replaceAll": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CustomerGroupPricing": {
+                "type": "object"
+            },
+            "CustomerGroupPricingList": {
+                "type": "object",
+                "properties": {
+                    "groupPricing": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "replaceAll": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CustomerItemPricing": {
+                "type": "object",
+                "properties": {
+                    "price": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CustomerItemPricingList": {
+                "type": "object",
+                "properties": {
+                    "itemPricing": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "replaceAll": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CustomerMonthlyClosing": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CustomerNegativeNumberFormat": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CustomerNumberFormat": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CustomerPartnersList": {
+                "type": "object",
+                "properties": {
+                    "partners": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "replaceAll": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CustomerSalesTeam": {
+                "type": "object",
+                "properties": {
+                    "contribution": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isPrimary": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CustomerSalesTeamList": {
+                "type": "object",
+                "properties": {
+                    "replaceAll": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "salesTeam": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "CustomerStage": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "EmailPreference": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "GlobalSubscriptionStatus": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "ItemCostEstimateType": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Language": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Lead": {
+                "type": "object",
+                "properties": {
+                    "accountNumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "aging": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "altEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "altName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "altPhone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "balance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "billPay": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "clickStream": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "comments": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "companyName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "consolAging": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "consolBalance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "consolDaysOverdue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "consolDepositBalance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "consolOverdueBalance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "consolUnbilledOrders": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "contribPct": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "creditLimit": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "dateCreated": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "daysOverdue": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "defaultAddress": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "defaultOrderPriority": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "depositBalance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "displaySymbol": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "email": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "emailTransactions": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "endDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "entityId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "estimatedBudget": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "externalId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "fax": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "faxTransactions": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "firstName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "firstVisit": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "giveAccess": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "homePhone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "internalId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isBudgetApproved": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isInactive": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isPerson": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "keywords": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastModifiedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastPageVisited": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastVisit": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "middleName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "mobilePhone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "openingBalance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "openingBalanceDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "overdueBalance": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "overrideCurrencyFormat": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "password": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "password2": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "phone": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "phoneticName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "printOnCheckAs": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "printTransactions": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "referrer": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "reminderDays": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "requirePwdChange": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "resaleNumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "salutation": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "sendEmail": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "shipComplete": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "startDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "syncPartnerTeams": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "taxExempt": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "taxable": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "thirdPartyAcct": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "thirdPartyZipcode": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "unbilledOrders": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "vatRegNumber": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "visits": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "webLead": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "NullField": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Opportunity": {
+                "type": "object",
+                "properties": {
+                    "actionItem": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "altSalesRangeHigh": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "altSalesRangeLow": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "closeDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "contribPct": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "createdDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "currencyName": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "daysOpen": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "estGrossProfit": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "estGrossProfitPercent": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "estimatedBudget": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "exchangeRate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "expectedCloseDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "externalId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "internalId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isBudgetApproved": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "lastModifiedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "memo": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "probability": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "projAltSalesAmt": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "projectedTotal": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "rangeHigh": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "rangeLow": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "shipIsResidential": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "source": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "syncPartnerTeams": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "syncSalesTeams": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "tax2Total": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "taxTotal": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "totalCostEstimate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "tranDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "tranId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "vatRegNum": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "weightedTotal": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "OpportunityCompetitors": {
+                "type": "object",
+                "properties": {
+                    "notes": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "strategy": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "winner": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "OpportunityCompetitorsList": {
+                "type": "object",
+                "properties": {
+                    "competitors": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "replaceAll": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "OpportunityItem": {
+                "type": "object",
+                "properties": {
+                    "altSalesAmt": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "amount": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "costEstimate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "expectedShipDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "fromJob": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "grossAmt": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isEstimate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "line": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "quantity": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "quantityAvailable": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "quantityOnHand": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "rate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "revRecTermInMonths": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "tax1Amt": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "taxRate1": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "taxRate2": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "OpportunityItemList": {
+                "type": "object",
+                "properties": {
+                    "item": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "replaceAll": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "OpportunityPartnersList": {
+                "type": "object",
+                "properties": {
+                    "partners": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "replaceAll": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "OpportunitySalesTeam": {
+                "type": "object",
+                "properties": {
+                    "contribution": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isPrimary": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "OpportunitySalesTeamList": {
+                "type": "object",
+                "properties": {
+                    "replaceAll": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "salesTeam": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Partners": {
+                "type": "object",
+                "properties": {
+                    "contribution": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "isPrimary": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "RecordRef": {
+                "type": "object",
+                "properties": {
+                    "externalId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "internalId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "RecordType": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "String": {
+                "type": "object",
+                "properties": {
+                    "empty": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Subscriptions": {
+                "type": "object",
+                "properties": {
+                    "lastModifiedDate": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "subscribed": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "SubscriptionsList": {
+                "type": "object",
+                "properties": {
+                    "replaceAll": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "subscriptions": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "BulkStatus": {
+                "type": "object",
+                "properties": {
+                    "batchId": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "message": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "numOfLeadsProcessed": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "numOfRowsFailed": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "numOfRowsWithWarning": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "BulkLoad": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "BulkQuery": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            },
+            "Pong": {
+                "type": "object",
+                "properties": {
+                    "dateTime": {
+                        "description": "",
+                        "type": "patch"
+                    },
+                    "endpoint": {
+                        "description": "",
+                        "type": "patch"
+                    }
+                }
+            }
+        }
+    }
+}
