@@ -1,5 +1,5 @@
 {
-    "id": "8edae3bb207ab4f427ab3c4893de91cc",
+    "id": "c482a7359df4c4a4988687ff50b67edb",
     "name": "Dropbox for Business API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "8936a5d03bd8d103ba81a20c61a5b1c0",
+            "id": "eb71f480a2633f041572c689dfce24ee",
             "name": "Get Info",
             "url": "httpsapi.dropbox.com\/1\/team\/get_info",
             "description": "Get info.",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "collectionId": "c482a7359df4c4a4988687ff50b67edb",
             "rawModeData": ""
         },
         {
-            "id": "c2e0b9f4e573665828031e75b36ecc85",
+            "id": "2bbe53808d43633065b11e0e75dccf99",
             "name": "Get Events",
             "url": "httpsapi.dropbox.com\/1\/team\/log\/get_events",
             "description": "Get events.",
@@ -95,11 +95,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "collectionId": "c482a7359df4c4a4988687ff50b67edb",
             "rawModeData": ""
         },
         {
-            "id": "8dc671e960ae06edf8039a1bdb9d73d9",
+            "id": "b446a95fb3ea15ee84bdd44fd6ab62da",
             "name": "Add Member",
             "url": "httpsapi.dropbox.com\/1\/team\/members\/add",
             "description": "Add member.",
@@ -154,11 +154,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "collectionId": "c482a7359df4c4a4988687ff50b67edb",
             "rawModeData": ""
         },
         {
-            "id": "faa3208308df1135abaf3b9287398500",
+            "id": "cf891d3d04f193dcf52906224053c7c5",
             "name": "Get Member Info",
             "url": "httpsapi.dropbox.com\/1\/team\/members\/get_info",
             "description": "Get member info.",
@@ -199,11 +199,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "collectionId": "c482a7359df4c4a4988687ff50b67edb",
             "rawModeData": ""
         },
         {
-            "id": "afad2b172687df0923a96bc67d9806a1",
+            "id": "3a5cdbe797ae13c16e2fef127e33af25",
             "name": "Get Info Batch",
             "url": "httpsapi.dropbox.com\/1\/team\/members\/get_info_batch",
             "description": "Get info batch.",
@@ -244,11 +244,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "collectionId": "c482a7359df4c4a4988687ff50b67edb",
             "rawModeData": ""
         },
         {
-            "id": "f81ffb0319f365ffe9d6302067f0efb4",
+            "id": "735502c9b7cd32250a1e9583db83058a",
             "name": "List Members",
             "url": "httpsapi.dropbox.com\/1\/team\/members\/list",
             "description": "List members.",
@@ -282,11 +282,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "collectionId": "c482a7359df4c4a4988687ff50b67edb",
             "rawModeData": ""
         },
         {
-            "id": "675b6bdbfb662577c0bebf039914b3ac",
+            "id": "bf9501b037d3d31a4b1bdc99d3aff3db",
             "name": "Remove",
             "url": "httpsapi.dropbox.com\/1\/team\/members\/remove",
             "description": "Remove.",
@@ -341,11 +341,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "collectionId": "c482a7359df4c4a4988687ff50b67edb",
             "rawModeData": ""
         },
         {
-            "id": "d3d70940776c6028b30da71269798deb",
+            "id": "fe81c809e777d3c99c0ca69219c20851",
             "name": "Set Member Permissions",
             "url": "httpsapi.dropbox.com\/1\/team\/members\/set_permissions",
             "description": "Set member permissions.",
@@ -386,11 +386,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "collectionId": "c482a7359df4c4a4988687ff50b67edb",
             "rawModeData": ""
         },
         {
-            "id": "8181608986f2c7ce2c72cc4cdf3b8dc8",
+            "id": "1414406ef509948d0045f6c4e0bf729b",
             "name": "Set Profile",
             "url": "httpsapi.dropbox.com\/1\/team\/members\/set_profile",
             "description": "Set profile.",
@@ -452,11 +452,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "collectionId": "c482a7359df4c4a4988687ff50b67edb",
             "rawModeData": ""
         },
         {
-            "id": "4f1ebb916bce7f5045b8fe5a36ceb6ec",
+            "id": "652bfd262a999ab97d69283e797fa6ba",
             "name": "Get Activity",
             "url": "httpsapi.dropbox.com\/1\/team\/reports\/get_activity",
             "description": "Get activity.",
@@ -490,11 +490,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "collectionId": "c482a7359df4c4a4988687ff50b67edb",
             "rawModeData": ""
         },
         {
-            "id": "d3d993fdc2401b17e7d2833a4524a695",
+            "id": "55e61f6176e2bcb513ade23397fcd738",
             "name": "Get Devices",
             "url": "httpsapi.dropbox.com\/1\/team\/reports\/get_devices",
             "description": "Get devices.",
@@ -528,11 +528,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "collectionId": "c482a7359df4c4a4988687ff50b67edb",
             "rawModeData": ""
         },
         {
-            "id": "c3e27fcab527331f849cf9865825c3a9",
+            "id": "6b55ad25c8900d26c0aafdcee332f661",
             "name": "Get Membership",
             "url": "httpsapi.dropbox.com\/1\/team\/reports\/get_membership",
             "description": "Get membership.",
@@ -566,11 +566,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "collectionId": "c482a7359df4c4a4988687ff50b67edb",
             "rawModeData": ""
         },
         {
-            "id": "2973b733519eaac0db72fef19188e529",
+            "id": "faaa95cbf05aa9eb0cf87a10605568b9",
             "name": "Get Storage",
             "url": "httpsapi.dropbox.com\/1\/team\/reports\/get_storage",
             "description": "Get storage.",
@@ -604,7 +604,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8edae3bb207ab4f427ab3c4893de91cc",
+            "collectionId": "c482a7359df4c4a4988687ff50b67edb",
             "rawModeData": ""
         }
     ]
