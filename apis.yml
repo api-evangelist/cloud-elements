@@ -1,0 +1,38 @@
+aid: cloud-elements
+name: Cloud Elements
+description: >-
+  Cloud Elements is an API integration platform offering pre-built connectors
+  and a unified API for embedded integration.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Embedded iPaaS
+  - Unified API
+  - Connectors
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/cloud-elements/refs/heads/main/apis.yml
+created: '2026-03-27'
+modified: '2026-03-27'
+specificationVersion: '0.19'
+apis:
+  - aid: cloud-elements:apis
+    name: Cloud Elements API
+    description: >-
+      Cloud Elements provides a unified API platform with pre-built connectors
+      to over 200 cloud services, enabling embedded integrations for SaaS
+      applications.
+    humanURL: https://cloud-elements.com
+    tags:
+      - Embedded iPaaS
+      - Unified API
+    properties:
+      - type: Documentation
+        url: https://docs.cloud-elements.com
+common:
+  - type: Website
+    url: https://cloud-elements.com
+  - type: Documentation
+    url: https://docs.cloud-elements.com
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
