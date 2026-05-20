@@ -30,6 +30,8 @@ description: >-
   platform.
 apis: []
 common:
+  - type: GitHubOrganization
+    url: https://github.com/cloud-elements
   - type: Website
     url: https://cloud-elements.com
   - type: SuccessorPlatform
