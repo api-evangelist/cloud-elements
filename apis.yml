@@ -36,7 +36,7 @@ tags:
   - Connectors
   - Embedded iPaaS
   - Integration Platform
-  - Unified-API
+  - Unified API
   - UiPath
 tags_raw:
   - Acquired
@@ -45,6 +45,7 @@ tags_raw:
   - Integration Platform
   - Unified API
   - UiPath
+  - Unified-API
 description: >-
   Cloud Elements was a Denver-based API integration platform that offered
   pre-built connectors ("Elements") and category-level Unified APIs (CRM,
